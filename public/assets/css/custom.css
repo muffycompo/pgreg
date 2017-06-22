@@ -1,0 +1,9 @@
+.login-panel, .login-gap {
+    margin-top: 5%;
+}
+
+.dropzone {
+    min-height: 110px;
+    border: 1px solid rgba(0,0,0,0.3);
+    padding: 10px 20px;
+}
