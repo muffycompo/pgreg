@@ -134,6 +134,9 @@
 <!-- Custom Theme JavaScript -->
 <script src="{{ asset('/assets/js/sb-admin-2.js') }}"></script>
 
+<!-- Custom Application JavaScript -->
+<script src="{{ asset('/assets/js/custom.js') }}"></script>
+
 @yield('footer.scripts')
 
 

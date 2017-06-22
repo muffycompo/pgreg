@@ -25,6 +25,7 @@ class Programme extends Model {
         if($this->where('user_id',$userId)->count() == 1){
             $programme = $this->where('user_id',$userId)->update([
                 'programme_type' => $data['programme_type'],
+                'programme_faculty' => $data['programme_faculty'],
                 'programme_of_study' => $data['programme_of_study'],
                 'mode_of_study' => $data['mode_of_study'],
             ]);
@@ -32,6 +33,7 @@ class Programme extends Model {
             $programme = $this->create([
                 'user_id' => $userId,
                 'programme_type' => $data['programme_type'],
+                'programme_faculty' => $data['programme_faculty'],
                 'programme_of_study' => $data['programme_of_study'],
                 'mode_of_study' => $data['mode_of_study'],
             ]);

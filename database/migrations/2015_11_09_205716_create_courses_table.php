@@ -16,6 +16,8 @@ class CreateCoursesTable extends Migration {
 		{
 			$table->increments('id');
 			$table->string('course_name');
+			$table->integer('programme_type_id');
+			$table->integer('programme_faculty_id');
 		});
 	}
 

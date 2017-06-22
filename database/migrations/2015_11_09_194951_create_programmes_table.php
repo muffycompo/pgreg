@@ -17,6 +17,7 @@ class CreateProgrammesTable extends Migration {
 			$table->increments('id');
 			$table->integer('user_id');
 			$table->string('programme_type');
+			$table->string('programme_faculty');
 			$table->string('programme_of_study');
 			$table->string('mode_of_study');
 		});

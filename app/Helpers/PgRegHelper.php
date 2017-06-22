@@ -21,12 +21,21 @@ function maritalStatusDropdown($name, $selected, $attributes){
 }
 
 function programmeTypeDropdown($name, $selected, $attributes){
-    $data = [
-        '1' => 'PGD',
-        '2' => 'M.Sc.',
-        '3' => 'MBA',
-    ];
-    return Form::select($name, $data, $selected, $attributes);
+    $programmeTypes = DB::table('programme_types')->get();
+    $options = [];
+    foreach($programmeTypes as $type){
+        $options[$type->id] = $type->programme_type;
+    }
+    return Form::select($name, $options, $selected, $attributes);
+}
+
+function programmeFacultyDropdown($name, $selected, $attributes){
+    $courseCategories = DB::table('course_categories')->get();
+    $options = [];
+    foreach($courseCategories as $category){
+        $options[$category->id] = $category->category_name;
+    }
+    return Form::select($name, $options, $selected, $attributes);
 }
 
 function studyModeDropdown($name, $selected, $attributes){

@@ -18,6 +18,11 @@ get('/application/print',['as' => 'print', 'middleware' => 'auth', 'uses' => 'Ho
 get('/portal/password_reset',['as' => 'password-reset', 'uses' => 'HomeController@getPasswordReset']);
 get('/portal/password_reset/{token}',['as' => 'password-reset-url', 'uses' => 'HomeController@getPasswordResetUrl']);
 
+// Dropdown
+get('/application/programme_type',['as' => 'get.programme-type', 'uses' => 'ApplicationController@getProgrammeTypes']);
+get('/application/programme_faculty',['as' => 'get.programme-faculty', 'uses' => 'ApplicationController@getProgrammeFaculties']);
+get('/application/programme_of_study',['as' => 'get.programme-of-study', 'uses' => 'ApplicationController@getProgrammeOfStudy']);
+
 // Logout
 get('/portal/logout',['as' => 'logout', 'uses' => 'HomeController@logout']);
 

@@ -503,7 +503,7 @@
 					<ul>
 						<li>School of Postgraduate Studies Bingham University</li>
 						<li>ECWA Wuse II Microfinance Bank</li>
-						<li>Diamond Bank</li>
+						{{--<li>Diamond Bank</li>--}}
 						<li>Zenith bank</li>
 						<li>Guaranty Trust Bank</li>
 					</ul>

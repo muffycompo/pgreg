@@ -4,12 +4,16 @@ use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
 use App\Nok;
+use App\ProgrammeCourse;
+use App\ProgrammeFaculty;
+use App\ProgrammeType;
 use App\Qualification;
 use Illuminate\Http\Request;
 use App\Http\Requests\PersonalDetailRequest;
 use App\Http\Requests\NewNokRequest;
 use App\Http\Requests\OLevelResultRequest;
 use App\Http\Requests\QualificationsRequest;
+use App\Http\Requests\ProgrammesFormValidation;
 
 use App\PersonalDetail;
 
@@ -64,6 +68,22 @@ class ApplicationController extends Controller {
         $programme = $programme->getProgrammeDetails();
         return view('programmes')
                 ->with(compact('programme'));
+    }
+
+    public function getProgrammeTypes(ProgrammeType $programmeType)
+    {
+        return $programmeType->all()->toJson();
+    }
+
+    public function getProgrammeFaculties(ProgrammeFaculty $programmeFaculty)
+    {
+        return $programmeFaculty->all()->toJson();
+    }
+    public function getProgrammeOfStudy(Request $request, ProgrammeCourse $programmeCourse)
+    {
+        $programeTypeId = $request->get('programme_type_id');
+        $programmeFacultyId = $request->get('programme_faculty_id');
+        return $programmeCourse->getProgrammeOfStudyCourses($programeTypeId,$programmeFacultyId);
     }
 
     public function getDeleteExam($id, OLevelExam $exam){
@@ -170,7 +190,7 @@ class ApplicationController extends Controller {
 
     }
 
-    public function postProgramme(Request $request, Programme $programme)
+    public function postProgramme(ProgrammesFormValidation $request, Programme $programme)
     {
         $programmeDetail = $programme->saveProgramme($request->all());
 
