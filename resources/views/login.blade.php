@@ -32,7 +32,11 @@
 <div class="container">
     <div class="row">
         <div class="col-md-4 col-md-offset-4 login-gap">
-            <p class="text-center"><img src="{{ asset('/assets/images/bhu-logo.png') }}" alt="Logo" style="height: 100px;"></p>
+            <p class="text-center">
+                <a href="{{ route('home') }}">
+                    <img src="{{ asset('/assets/images/bhu-logo.png') }}" alt="Logo" style="height: 100px;">
+                </a>
+            </p>
             <div class="login-panel panel panel-default">
                 <div class="panel-heading">
                     <h3 class="panel-title text-center">Please Sign In</h3>

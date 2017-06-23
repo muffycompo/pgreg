@@ -46,8 +46,8 @@
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
             <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h3 class="panel-title text-center">SSCE Details</h3>
+                <div class="panel-heading clearfix">
+                    <h3 class="panel-title text-center">SSCE Details <a href="javascript:;" onclick="window.print();"  class="btn btn-info pull-right"><span class="glyphicon glyphicon-print"></span> Print</a></h3>
                 </div>
                 <div class="panel-body">
                     <table class="table table-bordered">

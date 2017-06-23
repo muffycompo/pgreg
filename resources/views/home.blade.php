@@ -500,11 +500,30 @@
 			<div class="col-lg-6">
 				<p>
 					Application forms can be obtained from the following establishments:
+					{{--<ul>--}}
+						{{--<li>School of Postgraduate Studies Bingham University</li>--}}
+						{{--<li>ECWA Wuse II Microfinance Bank</li>--}}
+						{{--<li>Diamond Bank</li>--}}
+						{{--<li>Zenith bank</li>--}}
+						{{--<li>Guaranty Trust Bank</li>--}}
+					{{--</ul>--}}
 					<ul>
 						<li>School of Postgraduate Studies Bingham University</li>
-						<li>ECWA Wuse II Microfinance Bank</li>
+						<li>
+							ECWA Wuse II Microfinance Bank
+							<ol>
+								<li>A/C Name: Bingham University</li>
+								<li>A/C No: 1000101111</li>
+							</ol>
+						</li>
 						{{--<li>Diamond Bank</li>--}}
-						<li>Zenith bank</li>
+						<li>
+							Zenith Bank
+							<ol>
+								<li>A/C Name: Bingham University</li>
+								<li>A/C No: 1130017403</li>
+							</ol>
+						</li>
 						<li>Guaranty Trust Bank</li>
 					</ul>
 				</p>
