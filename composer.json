@@ -22,7 +22,7 @@
 			"App\\": "app/"
 		},
 		"files": [
-			"App/Helpers/PgRegHelper.php"
+			"app/Helpers/PgRegHelper.php"
 		]
 	},
 	"autoload-dev": {
