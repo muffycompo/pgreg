@@ -14,6 +14,7 @@ get('/application/delete_exam/{id}',['as' => 'delete-exam', 'middleware' => 'aut
 get('/application/delete_qualification/{id}',['as' => 'delete-qualification', 'middleware' => 'auth', 'uses' => 'ApplicationController@getDeleteQualification']);
 
 get('/application/print',['as' => 'print', 'middleware' => 'auth', 'uses' => 'HomeController@getPrintApplication']);
+get('/application/change_password',['as' => 'change-password', 'middleware' => 'auth', 'uses' => 'ApplicationController@getChangePassword']);
 
 get('/portal/password_reset',['as' => 'password-reset', 'uses' => 'HomeController@getPasswordReset']);
 get('/portal/password_reset/{token}',['as' => 'password-reset-url', 'uses' => 'HomeController@getPasswordResetUrl']);
@@ -36,6 +37,7 @@ post('/application/ssce',['as' => 'post-ssce', 'middleware' => 'auth', 'uses' =>
 post('/application/olevel_exam',['as' => 'post-olevel-exam', 'middleware' => 'auth', 'uses' => 'ApplicationController@postOLevelExam']);
 post('/application/qualifications',['as' => 'post-qualification', 'middleware' => 'auth', 'uses' => 'ApplicationController@postQualification']);
 post('/application/programme',['as' => 'post-programme', 'middleware' => 'auth', 'uses' => 'ApplicationController@postProgramme']);
+post('/application/change_password',['as' => 'post-change-password', 'middleware' => 'auth', 'uses' => 'ApplicationController@postChangePassword']);
 
 post('/portal/password_reset',['as' => 'post-password-reset', 'uses' => 'HomeController@postPasswordReset']);
 post('/portal/password_reset_url',['as' => 'post-password-reset-url', 'uses' => 'HomeController@postPasswordResetUrl']);

@@ -107,21 +107,21 @@
                         <div class="col-lg-6">
                             <table class="table table-bordered table-responsive">
                                 <thead>
-                                    <tr>
-                                        <th>#</th>
-                                        <th>Subject</th>
-                                        <th>Grade</th>
-                                        <th>Action</th>
+                                    <tr class="text-center">
+                                        <th class="text-center">#</th>
+                                        <th class="text-center">Subject</th>
+                                        <th class="text-center">Grade</th>
+                                        <th class="text-center">Action</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                 @if(isset($exams) && count($exams) > 0)
                                     @foreach($exams as $exam)
-                                        <tr>
+                                        <tr class="text-center">
                                             <td>{{ $sn++ }}</td>
                                             <td>{{ expandOLevelExam($exam->subject_id) }}</td>
                                             <td>{{ expandOLevelGrade($exam->grade) }}</td>
-                                            <td><a href="{{ route('delete-exam',$exam->id) }}" class="text-danger"><span class="fa fa-remove"></span></a></td>
+                                            <td><a href="{{ route('delete-exam',$exam->id) }}" alt="Delete" title="Delete" class="text-danger"><span class="fa fa-remove"></span></a></td>
                                         </tr>
                                     @endforeach
                                 @endif

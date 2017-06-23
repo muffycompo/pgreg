@@ -62,9 +62,9 @@
 					<i class="fa fa-user fa-fw"></i> {{ $user->firstname . ' ' . $user->lastname }} <i class="fa fa-caret-down"></i>
 				</a>
 				<ul class="dropdown-menu dropdown-user">
-					{{--<li><a href="#"><i class="fa fa-user fa-fw"></i> Profile</a>--}}
+					<li><a href="{{ route('change-password') }}"><i class="fa fa-lock fa-fw"></i> Change Password</a>
 					{{--</li>--}}
-					{{--<li class="divider"></li>--}}
+					<li class="divider"></li>
 					<li><a href="{{ route('logout') }}"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
 					</li>
 				</ul>
@@ -100,7 +100,7 @@
 						<a href="{{ route('programmes') }}"><i class="fa fa-file-text-o fa-fw"></i> Programme of Study</a>
 					</li>
 					<li>
-						<a href="{{ route('print') }}" target="_blank"><i class="fa fa-print fa-fw"></i> Print Form</a>
+						<a href="{{ route('print') }}" target="_blank"><i class="fa fa-print fa-fw"></i> Printable Form</a>
 					</li>
 					<li>
 						<a href="{{ route('logout') }}"><i class="fa fa-sign-out fa-fw"></i> Logout</a>

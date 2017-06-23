@@ -32,7 +32,6 @@
 <div class="container">
     <div class="row">
         <div class="col-md-4 col-md-offset-4 login-gap">
-            @include('partials._notification')
             <p class="text-center"><img src="{{ asset('/assets/images/bhu-logo.png') }}" alt="Logo" style="height: 100px;"></p>
             <div class="login-panel panel panel-default">
                 <div class="panel-heading">
@@ -62,6 +61,7 @@
                             <p>Don't have an account? <a href="{{ route('signup') }}">Create new account</a></p>
                         </fieldset>
                     {!! Form::close() !!}
+                    @include('partials._notification')
                 </div>
             </div>
         </div>

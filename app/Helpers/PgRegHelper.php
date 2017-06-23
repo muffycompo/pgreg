@@ -122,7 +122,7 @@ function oLevelSubjectsDropdown($name, $selected, $attributes){
 
 function ssceStatusDropdown($name, $selected, $attributes){
     $ssceStatus = [
-        1 => 'I have result',
+        1 => 'I have Result',
         2 => "I don't have Result",
     ];
     return Form::select($name, $ssceStatus, $selected, $attributes);

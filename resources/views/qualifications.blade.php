@@ -99,7 +99,7 @@
                                                 <td>{{ $qualification->school }}</td>
                                                 <td>{{ $qualification->qualification_date }}</td>
                                                 <td>{{ $qualification->grade }}</td>
-                                                <td><a href="{{ route('delete-qualification',$qualification->id) }}" class="text-danger"><span class="fa fa-remove"></span></a></td>
+                                                <td class="text-center"><a href="{{ route('delete-qualification',$qualification->id) }}" alt="Delete" title="Delete" class="text-danger"><span class="fa fa-remove"></span></a></td>
                                             </tr>
                                         @endforeach
                                     @endif

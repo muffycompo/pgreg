@@ -1,25 +1,22 @@
 <?php namespace App\Http\Controllers;
 
-use App\Http\Requests;
-use App\Http\Controllers\Controller;
-
+use App\Http\Requests\NewNokRequest;
+use App\Http\Requests\OLevelResultRequest;
+use App\Http\Requests\PersonalDetailRequest;
+use App\Http\Requests\ProgrammesFormValidation;
+use App\Http\Requests\QualificationsRequest;
+use App\Http\Requests\ChangePasswordFormValidation;
 use App\Nok;
+use App\User;
+use App\OLevelExam;
+use App\OLevelResult;
+use App\PersonalDetail;
+use App\Programme;
 use App\ProgrammeCourse;
 use App\ProgrammeFaculty;
 use App\ProgrammeType;
 use App\Qualification;
 use Illuminate\Http\Request;
-use App\Http\Requests\PersonalDetailRequest;
-use App\Http\Requests\NewNokRequest;
-use App\Http\Requests\OLevelResultRequest;
-use App\Http\Requests\QualificationsRequest;
-use App\Http\Requests\ProgrammesFormValidation;
-
-use App\PersonalDetail;
-
-use App\OLevelResult;
-use App\OLevelExam;
-use App\Programme;
 
 class ApplicationController extends Controller {
 
@@ -61,6 +58,11 @@ class ApplicationController extends Controller {
         return view('qualifications')
                 ->with('sn',1)
                 ->with(compact('qualifications'));
+    }
+
+    public function getChangePassword()
+    {
+        return view('change_password');
     }
 
     public function getProgrammes(Programme $programme)
@@ -220,5 +222,23 @@ class ApplicationController extends Controller {
             return response()->json(['success' => 'Passport Uploaded Successfully!'],201);
         }
     }
+
+
+    public function postChangePassword(ChangePasswordFormValidation $request, User $user)
+    {
+        $changePassword = $user->changePassword($request->all());
+
+        if(!$changePassword) {
+            return redirect()->back()
+                ->with('notification_type','danger')
+                ->with('notification_message','An error occurred while changing your password!')
+                ->withInput();
+        }
+        return redirect()->back()
+            ->with('notification_type','success')
+            ->with('notification_message','Password Changed Successfully!');
+
+    }
+
 
 }

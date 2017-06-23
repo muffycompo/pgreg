@@ -114,6 +114,19 @@ class User extends Model implements AuthenticatableContract, CanResetPasswordCon
 		return $reset ? : false;
 	}
 
+	public function changePassword($data)
+	{
+		$user = Auth::user();
+		if(isset($user->id) && ! is_null($user->id)){
+            $change = $this->where('id',$user->id)->update([
+                'password' => bcrypt($data['password'])
+            ]);
+
+            return $change ? : false;
+        }
+        return false;
+	}
+
 
 	public function personal()
 	{
