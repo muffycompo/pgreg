@@ -35,7 +35,7 @@
                                 </div>
 
                                 <div class="form-group">
-                                    {!! Form::label('organization', 'Organization:') !!}
+                                    {!! Form::label('organization', 'Institution/Centre:') !!}
                                     {!! Form::text('organization', old('organization')? old('organization') : isset($result) ? $result->organization : '', ['class' => 'form-control']) !!}
                                     @if($errors->has('organization'))
                                         <p class="help-block"><small><span class="text-danger">{!! $errors->first('organization') !!}</span></small></p>

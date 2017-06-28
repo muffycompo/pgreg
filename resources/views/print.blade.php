@@ -61,7 +61,8 @@
                                 <td>{{ null !== $result ? $result->number_of_sitting : '' }}</td>
                             </tr>
                             <tr>
-                                <td>Organization:</td>
+                                {{--<td>Organization:</td>--}}
+                                <td>Institution/Centre:</td>
                                 <td>{{ null !== $result ? $result->organization : '' }}</td>
                             </tr>
                             <tr>

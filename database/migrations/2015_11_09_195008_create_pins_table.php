@@ -17,6 +17,7 @@ class CreatePinsTable extends Migration {
 			$table->increments('id');
 			$table->string('username')->nullable();
 			$table->string('pincode',15);
+			$table->tinyInteger('pin_type');
 			$table->tinyInteger('status')->default(0);
 		});
 	}

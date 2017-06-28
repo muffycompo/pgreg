@@ -535,30 +535,30 @@
 					<table class="table table-bordered table-responsive">
 						<tr>
 							<td>Ph.D</td>
-							<td>N 25,000</td>
+							<td>N 25,500</td>
 						</tr>
 						<tr>
 							<td>Masters</td>
-							<td>N 20,000</td>
+							<td>N 20,500</td>
 						</tr>
 						<tr>
 							<td>Postgraduate Diploma</td>
-							<td>N 15,000</td>
+							<td>N 15,500</td>
 						</tr>
 						<tr>
 							<td>Postgraduate Certificate</td>
-							<td>N 10,000</td>
+							<td>N 10,500</td>
 						</tr>
 						<tr>
 							<td>Special Executive Certificate</td>
-							<td>N 5,000</td>
+							<td>N 5,500</td>
 						</tr>
 					</table>
 				</p>
 			</div>
 			<div class="col-lg-6">
 				<p>
-					For any problem encountered before or during registration, call or send SMS to 08030408344 or e-mail us at: registrar@binghamuni.edu.ng or pgadmission@binghamuni.edu.ng with the following details; Teller Number, First name, last name, amount, your phone number, and the details of the problem(s) encountered.<br>
+					For any problem encountered before or during registration, <!--call or send SMS to 08030408344 or--> e-mail us at: registrar@binghamuni.edu.ng or pgadmission@binghamuni.edu.ng with the following details; Teller Number, First name, last name, amount, your phone number, and the details of the problem(s) encountered.<br>
 					Visit the University’s Application Portal: www.binghamuni.edu.ng/pgadmission to apply.
 					{{--Visit any branch of Diamond Bank or Zenith Bank and ask for Bingham University Postgraduate Application form. Pay the stipulated amount and you will be issued a Computer printout containing a unique 12 digit PIN number. Visit the Postgraduate--}}
 					{{--<div class=" text-center">--}}
