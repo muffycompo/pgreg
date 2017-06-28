@@ -111,7 +111,7 @@
                                         <th class="text-center">#</th>
                                         <th class="text-center">Subject</th>
                                         <th class="text-center">Grade</th>
-                                        <th class="text-center">Action</th>
+                                        <th class="text-center hidden-print">Action</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -121,7 +121,7 @@
                                             <td>{{ $sn++ }}</td>
                                             <td>{{ expandOLevelExam($exam->subject_id) }}</td>
                                             <td>{{ expandOLevelGrade($exam->grade) }}</td>
-                                            <td><a href="{{ route('delete-exam',$exam->id) }}" alt="Delete" title="Delete" class="text-danger"><span class="fa fa-remove"></span></a></td>
+                                            <td class="hidden-print"><a href="{{ route('delete-exam',$exam->id) }}" alt="Delete" title="Delete" class="text-danger"><span class="fa fa-remove"></span></a></td>
                                         </tr>
                                     @endforeach
                                 @endif

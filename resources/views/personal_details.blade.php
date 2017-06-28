@@ -18,7 +18,7 @@
                     <div class="row">
 
                         <div class="col-lg-6">
-                            <div class="row">
+                            <div class="row hidden-print">
                                 <div class="col-md-4">
                                     <img src="{{ $personal->passport_photo_path ? asset($personal->passport_photo_path) : asset('/assets/images/passport-placeholder.png')}}" alt="Passport Photo" class="img-centered img-thumbnail" width="105" height="115">
                                 </div>

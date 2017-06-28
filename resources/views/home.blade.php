@@ -513,7 +513,7 @@
 							ECWA Wuse II Microfinance Bank
 							<ol>
 								<li>A/C Name: Bingham University</li>
-								<li>A/C No: 1000101111</li>
+								{{--<li>A/C No: 1000101111</li>--}}
 							</ol>
 						</li>
 						{{--<li>Diamond Bank</li>--}}
@@ -521,7 +521,7 @@
 							Zenith Bank
 							<ol>
 								<li>A/C Name: Bingham University</li>
-								<li>A/C No: 1130017403</li>
+								{{--<li>A/C No: 1130017403</li>--}}
 							</ol>
 						</li>
 						<li>Guaranty Trust Bank</li>

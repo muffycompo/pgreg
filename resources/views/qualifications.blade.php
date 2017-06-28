@@ -86,7 +86,7 @@
                                     <th>School</th>
                                     <th>Date</th>
                                     <th>Grade</th>
-                                    <th>Action</th>
+                                    <th class="hidden-print">Action</th>
                                 </tr>
                                 </thead>
                                 <tbody>
@@ -99,7 +99,7 @@
                                                 <td>{{ $qualification->school }}</td>
                                                 <td>{{ $qualification->qualification_date }}</td>
                                                 <td>{{ $qualification->grade }}</td>
-                                                <td class="text-center"><a href="{{ route('delete-qualification',$qualification->id) }}" alt="Delete" title="Delete" class="text-danger"><span class="fa fa-remove"></span></a></td>
+                                                <td class="text-center hidden-print"><a href="{{ route('delete-qualification',$qualification->id) }}" alt="Delete" title="Delete" class="text-danger"><span class="fa fa-remove"></span></a></td>
                                             </tr>
                                         @endforeach
                                     @endif
