@@ -176,12 +176,10 @@ function expandSSCEStatus($id){
 }
 
 function expandProgramType($id){
-    $data = [
-        '1' => 'PGD',
-        '2' => 'M.Sc.',
-        '3' => 'MBA',
-    ];
-    return $data[$id];
+    $programme = DB::table('programme_types')
+                ->where('id', $id)
+                ->first(['programme_type']);
+    return $programme ? $programme->programme_type : '';
 }
 
 function expandStudyMode($id){
