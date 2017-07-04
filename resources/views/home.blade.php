@@ -111,9 +111,20 @@
 				</p>
 			</div>
 			<div class="col-lg-6">
+				<h5>ATTRACTION AND UNIQUENESS OF BINGHAM UNIVERSITY</h5>
+				<ul>
+					<li>Geographical advantage in location resulting from its close proximity to the Federal Capital Territory (FCT).</li>
+					<li>Consistent, predictable safe and assured academic calendar.</li>
+					<li>Fast growing University with unprecedented academic landmark and physical achievements in the ten (10) years period of its existence.</li>
+					<li>Has successfully graduated eight (8) sets of students by December 2016 uninterruptedly.</li>
+					<li>One of the best Universities in Medicine as at 2016 by the NUC.</li>
+					<li>First University to develop e-voting machine model.</li>
+				</ul>
+				<p>In line with its mission of providing quality and functional education, the Postgraduate programmes are designed to be practically relevant to the country's needs and challenges.</p>
+
 				<h5>Sales of Application forms (June 2017)</h5>
 				<p>
-					Applications are invited from suitably qualified candidates for admission into the University’s postgraduate programmes. Application forms are on sale from 15th June 2017. Check our <a href="#programmes">list of programmes</a>
+					Applications are invited from suitably qualified candidates for admission into the University’s postgraduate programmes. Application forms are on sale from <strong>3rd July 2017</strong>. Check our <a href="#programmes">list of programmes</a>
 				</p>
 			</div>
 		</div>
@@ -508,23 +519,22 @@
 						{{--<li>Guaranty Trust Bank</li>--}}
 					{{--</ul>--}}
 					<ul>
-						<li>School of Postgraduate Studies Bingham University</li>
 						<li>
-							ECWA Wuse II Microfinance Bank
+							GUARANTY TRUST BANK (GTB)
 							<ol>
 								<li>A/C Name: Bingham University</li>
-								{{--<li>A/C No: 1000101111</li>--}}
+								<li>A/C No: 0211169092</li>
 							</ol>
 						</li>
 						{{--<li>Diamond Bank</li>--}}
 						<li>
-							Zenith Bank
+							UNION BANK
 							<ol>
 								<li>A/C Name: Bingham University</li>
-								{{--<li>A/C No: 1130017403</li>--}}
+								<li>A/C No: 0045442598</li>
 							</ol>
 						</li>
-						<li>Guaranty Trust Bank</li>
+						{{--<li>Guaranty Trust Bank</li>--}}
 					</ul>
 				</p>
 				<p>
@@ -534,32 +544,36 @@
 					{{--<strong>Zenith Bank Account: <span style="color: #2C3E50;">1130017403</span></strong><br>--}}
 					<table class="table table-bordered table-responsive">
 						<tr>
-							<td>Ph.D</td>
+							<td>Ph.D (Doctor of Philosophy)</td>
 							<td>N 25,500</td>
 						</tr>
 						<tr>
-							<td>Masters</td>
+							<td>M.Sc (Masters of Science)</td>
 							<td>N 20,500</td>
 						</tr>
 						<tr>
-							<td>Postgraduate Diploma</td>
+							<td>MBA (Masters in Business Administration)</td>
+							<td>N 20,500</td>
+						</tr>
+						<tr>
+							<td>Postgraduate Diploma (PGD)</td>
 							<td>N 15,500</td>
 						</tr>
 						<tr>
-							<td>Postgraduate Certificate</td>
+							<td>Postgraduate Certificate (PGC)</td>
 							<td>N 10,500</td>
 						</tr>
 						<tr>
 							<td>Special Executive Certificate</td>
-							<td>N 5,500</td>
+							<td>N 15,500</td>
 						</tr>
 					</table>
 				</p>
 			</div>
 			<div class="col-lg-6">
 				<p>
-					For any problem encountered before or during registration, <!--call or send SMS to 08030408344 or--> e-mail us at: registrar@binghamuni.edu.ng or pgadmission@binghamuni.edu.ng with the following details; Teller Number, First name, last name, amount, your phone number, and the details of the problem(s) encountered.<br>
-					Visit the University’s Application Portal: www.binghamuni.edu.ng/pgadmission to apply.
+					For any problem encountered before or during registration, call or send SMS to 08118549705, 08036073374, 08099872010 or e-mail us at: registrar@binghamuni.edu.ng or pgadmission@binghamuni.edu.ng with the following details; Teller Number, First name, last name, amount, your phone number, and the details of the problem(s) encountered.<br>
+					Visit the University’s Application Portal: <a href="http://binghamuni.edu.ng/pgadmission">www.binghamuni.edu.ng/pgadmission</a> to apply.
 					{{--Visit any branch of Diamond Bank or Zenith Bank and ask for Bingham University Postgraduate Application form. Pay the stipulated amount and you will be issued a Computer printout containing a unique 12 digit PIN number. Visit the Postgraduate--}}
 					{{--<div class=" text-center">--}}
 						{{--<a href="{{ route('login') }}" class="btn btn-primary">--}}
@@ -659,7 +673,7 @@
 					<p>
 						<strong>Email: </strong> pgadmission@binghamuni.edu.ng, registrar@binghamuni.edu.ng<br><br>
 						{{--<strong>Phone: </strong> 08113954549, 08113954537, 08113954538--}}
-						<strong>Phone: </strong> 08030408344
+						<strong>Phone: </strong> 08118549705, 08036073374, 08099872010
 					</p>
 				</div>
 			</div>
