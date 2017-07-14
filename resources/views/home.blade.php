@@ -628,7 +628,91 @@
 						</li>
 					</ol>
 				</p>
-				{{--<p>Candidates must obtain five (5) relevant O-level Credits including Mathematics and English at not more than two (2) sittings and first degree with a minimum of Second Class lower from a recognized University.</p>--}}
+			</div>
+			<div class="col-lg-12">
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						<h5>ENTRY REQUIREMENTS</h5>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-6">
+						<h6>Postgraduate Diploma Programmes</h6>
+						<p class="small">Provided the matriculation requirements are satisfied;</p>
+						<p>
+							<ol>
+								<li>Five (5) credit passes including English Language and Mathematics at the 'O' level (Maximum of two (2) sittings).</li>
+								<li>Relevant Bachelor’s Degrees not lower than third Class Division from recognized Universities.</li>
+								<li>Bachelor’s Degree with at least second class lower division in areas not related (outside generic course) may be considered.</li>
+								<li>Higher National Diploma (HND) at Upper Credit level.</li>
+								<li>Relevant professional qualifications.</li>
+							</ol>
+						</p>
+					</div>
+					<div class="col-lg-6">
+						<h6>Masters Degree Programmes</h6>
+						<p>Provided the matriculation requirements are satisfied;</p>
+						<p>
+						<ol>
+							<li>Five (5) credits passes including English language and Mathematics at the 'O' level (Maximum of two (2) sittings).</li>
+							<li>Degree in relevant area from a recognized University with minimum of second class lower division may be admitted.</li>
+							<li>A Postgraduate Diploma at upper credit level in relevant area from a recognized University.</li>
+						</ol>
+						</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						<a href="{{ route('login') }}" class="btn btn-lg btn-primary">
+							<i class="fa fa-globe"></i> Application Portal
+						</a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						<h5>ADDITIONAL ADMISSION REQUIREMENT</h5>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-6">
+						<h6>M.Sc. Biochemistry</h6>
+						<p class="small">To qualify for admission into the programme, a candidate must possess:</p>
+						<p>
+						<ol>
+							<li>A good B.Sc. /B. Tech degree with at least a second class from a recognized University. Selection will be based on the quality of the academic transcript of the first degree. In some cases there may be an interview.</li>
+							<li>MBBS degree and final certificate of the Institute of Science Laboratory Technology and Institute of Medical Laboratory Sciences, B.Sc. Science Laboratory Technology with second class upper. These categories will also be required to have at least two years post qualification experience.<br>
+								In all cases evidence of having passed English/Mathematics at credit level in SSSCE must be provided.</li>
+						</ol>
+						</p>
+					</div>
+					<div class="col-lg-6">
+						<h5>ADMISSION PROCEDURE</h5>
+						<p>
+							<ol>
+								<li>Any candidate wishing to study for a postgraduate programme in Bingham University shall apply for provisional admission from the school.</li>
+								<li>The application for any of the postgraduate programmes shall be made in accordance with the procedure presented by the school on payment of the stipulated application fees.</li>
+								<li>The candidate shall in addition cause his past university/institution to send transcript(s) directly to the Secretary of the postgraduate school.</li>
+								<li>The candidate two referees shall send a confidential report on the candidate on prescribed postgraduate application forms directly to the Secretary of the School.</li>
+								<li>All documents must reach the school on or before the stated date for the receipt of application forms.</li>
+								<li>The school shall forward the application details of each applicant to the appropriate department for consideration and recommendation.</li>
+								<li>Candidates for postgraduate admissions into Diploma, Masters Ph.D. programmes shall be considered for admissions only an academic session before the beginning of each session.</li>
+								<li>Any request by candidates who have applied for admission change of department, degree in view, field of study e.t.c must reach the Secretary before the closing date of submission of completed application forms. Change of course or programme may also be entertained during registration.</li>
+								<li>
+									In respect of every candidate recommended for admission, departmental postgraduate studies committee shall recommend as follows to the School through the appropriate faculty postgraduate studies committee:
+									<ul>
+										<li>Degree or Postgraduate Diploma in view;</li>
+										<li>Field of study clearly and precisely stated;</li>
+										<li>The Supervisor(s); in the case of Ph.D and M.Sc;</li>
+										<li>Mode of study (in the case of Master's programme);</li>
+										<li>Status of registration (full-time or part-time);</li>
+										<li>Other specific departmental requirements;</li>
+										<li>Any other requirement that may be referred to it by an appropriate University body.</li>
+									</ul>
+								</li>
+							</ol>
+						</p>
+					</div>
+				</div>
 			</div>
 			<div class="col-lg-8 col-lg-offset-2 text-center">
 				<a href="{{ route('login') }}" class="btn btn-lg btn-primary">
@@ -637,8 +721,8 @@
 			</div>
 			<div class="col-lg-12">
 				<p><br>
-					Applicants are to request their former Institutions to forward a copy of their transcripts of Academic Records to the Secretary, School of Postgraduate Studies, Bingham University, P.M.B 005, Karu, Nasarawa State.<br>
-					{{--Please note that all Postgraduate courses (full/part time) commences on February 1, 2016. All Postgraduate students are also required to make arrangements for their accommodation as the University at present has no provision for Postgraduate residence.--}}
+					Applicants are to request their former Institutions to forward a copy of their transcripts of Academic Records to the Secretary, School of Postgraduate Studies, Bingham University, P.M.B 005, Karu, Nasarawa State.<br><br>
+					Please note that all Postgraduate courses are full time. All Postgraduate students are also required to make arrangements for their accommodations as the University at present has no provision for Postgraduate residence.
 				</p>
 			</div>
 		</div>
