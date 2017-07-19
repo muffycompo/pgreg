@@ -1,6 +1,7 @@
 <?php namespace App\Http\Controllers;
 
 use App\Http\Requests\NewNokRequest;
+use App\Http\Requests\OLevelExamRequest;
 use App\Http\Requests\OLevelResultRequest;
 use App\Http\Requests\PersonalDetailRequest;
 use App\Http\Requests\ProgrammesFormValidation;
@@ -161,7 +162,7 @@ class ApplicationController extends Controller {
 
     }
 
-    public function postOLevelExam(Request $request, OLevelExam $exam)
+    public function postOLevelExam(OLevelExamRequest $request, OLevelExam $exam)
     {
         $examDetail = $exam->saveOLevelExam($request->all());
 

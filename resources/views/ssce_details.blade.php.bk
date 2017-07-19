@@ -34,14 +34,27 @@
                                     @endif
                                 </div>
 
+                                <div class="form-group">
+                                    {!! Form::label('organization', 'Institution/Centre:') !!}
+                                    {!! Form::text('organization', old('organization')? old('organization') : isset($result) ? $result->organization : '', ['class' => 'form-control']) !!}
+                                    @if($errors->has('organization'))
+                                        <p class="help-block"><small><span class="text-danger">{!! $errors->first('organization') !!}</span></small></p>
+                                    @endif
+                                </div>
+
                         </div>
                         <div class="col-lg-6">
 
                             <div class="form-group">
-                                {!! Form::label('organization', 'Institution/Centre:') !!}
-                                {!! Form::text('organization', old('organization')? old('organization') : isset($result) ? $result->organization : '', ['class' => 'form-control']) !!}
-                                @if($errors->has('organization'))
-                                    <p class="help-block"><small><span class="text-danger">{!! $errors->first('organization') !!}</span></small></p>
+                                {!! Form::label('exam_type', 'SSCE Exam Type:') !!}
+                                {!! examTypeDropdown('exam_type', old('exam_type')? old('exam_type') : isset($result) ? $result->exam_type_id : '', ['class' => 'form-control']) !!}
+                            </div>
+
+                            <div class="form-group">
+                                {!! Form::label('exam_year', 'SSCE Exam Year:') !!}
+                                {!! Form::text('exam_year', old('exam_year')? old('exam_year') : isset($result) ? $result->exam_year : '', ['class' => 'form-control','maxlength' => 4]) !!}
+                                @if($errors->has('exam_year'))
+                                    <p class="help-block"><small><span class="text-danger">{!! $errors->first('exam_year') !!}</span></small></p>
                                 @endif
                             </div>
 
@@ -71,36 +84,21 @@
                         <div class="col-lg-6">
                             {!! Form::open(['route'=>'post-olevel-exam', 'role'=>'form']) !!}
                             <div class="row">
-                                <div class="col-md-5">
+                                <div class="col-md-6">
                                     <div class="form-group">
                                         {!! Form::label('exam_subject', 'Subject:') !!}
                                         {!! oLevelSubjectsDropdown('exam_subject', null, ['class' => 'form-control']) !!}
                                     </div>
                                 </div>
-                                <div class="col-md-2">
+                                <div class="col-md-3">
                                     <div class="form-group">
                                         {!! Form::label('exam_grade', 'Grade:') !!}
                                         {!! oLevelGradesDropdown('exam_grade', null, ['class' => 'form-control']) !!}
                                     </div>
                                 </div>
                                 <div class="col-md-3">
-                                    <div class="form-group">
-                                        {!! Form::label('exam_type', 'Type:') !!}
-                                        {!! examTypeDropdown('exam_type', old('exam_type'), ['class' => 'form-control']) !!}
-                                    </div>
-                                </div>
-                                <div class="col-md-2">
-                                    <div class="form-group">
-                                        {!! Form::label('exam_year', 'Year:') !!}
-                                        {!! Form::text('exam_year', old('exam_year'), ['class' => 'form-control','maxlength' => 4]) !!}
-                                        @if($errors->has('exam_year'))
-                                            <p class="help-block"><small><span class="text-danger">{!! $errors->first('exam_year') !!}</span></small></p>
-                                        @endif
-                                    </div>
-                                </div>
-
-                                <div class="col-md-12">
-                                    <p><button type="submit" class="btn btn-success">Add</button></p>
+                                    <br>
+                                    <p style="margin-top: 5px;"><button type="submit" class="btn btn-success">Add</button></p>
                                 </div>
                             </div>
 
@@ -113,8 +111,6 @@
                                         <th class="text-center">#</th>
                                         <th class="text-center">Subject</th>
                                         <th class="text-center">Grade</th>
-                                        <th class="text-center">Type</th>
-                                        <th class="text-center">Year</th>
                                         <th class="text-center hidden-print">Action</th>
                                     </tr>
                                 </thead>
@@ -123,10 +119,8 @@
                                     @foreach($exams as $exam)
                                         <tr class="text-center">
                                             <td>{{ $sn++ }}</td>
-                                            <td nowrap="nowrap">{{ expandOLevelExam($exam->subject_id) }}</td>
+                                            <td>{{ expandOLevelExam($exam->subject_id) }}</td>
                                             <td>{{ expandOLevelGrade($exam->grade) }}</td>
-                                            <td>{{ expandExamType($exam->exam_type_id) }}</td>
-                                            <td>{{ $exam->exam_year }}</td>
                                             <td class="hidden-print"><a href="{{ route('delete-exam',$exam->id) }}" alt="Delete" title="Delete" class="text-danger"><span class="fa fa-remove"></span></a></td>
                                         </tr>
                                     @endforeach

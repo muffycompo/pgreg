@@ -8,7 +8,7 @@ class OLevelResult extends Model {
 
     protected $table = 'olevel_results';
 
-    protected $fillable = ['user_id','ssce_status','number_of_sitting','organization','exam_type_id','exam_year'];
+    protected $fillable = ['user_id','ssce_status','number_of_sitting','organization'];
 
     public function getOLevelResults()
     {
@@ -26,8 +26,6 @@ class OLevelResult extends Model {
                 'ssce_status' => Str::title($data['ssce_status']),
                 'number_of_sitting' => $data['result_combination'],
                 'organization' => $data['organization'],
-                'exam_type_id' => $data['exam_type'],
-                'exam_year' => $data['exam_year'],
             ]);
         } else {
             $oLevelResults = $this->create([

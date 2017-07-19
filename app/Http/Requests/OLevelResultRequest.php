@@ -25,7 +25,6 @@ class OLevelResultRequest extends Request {
 			'ssce_status' => 'required',
 			'result_combination' => 'required|numeric',
 			'organization' => 'required',
-			'exam_year' => 'required',
 		];
 	}
 

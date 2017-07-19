@@ -7,7 +7,7 @@ class OLevelExam extends Model {
 
 	protected $table = 'olevel_exams';
 
-    protected $fillable = ['user_id', 'subject_id','grade'];
+    protected $fillable = ['user_id', 'subject_id','grade','exam_type_id','exam_year'];
 
     public $timestamps = false;
 
@@ -26,6 +26,8 @@ class OLevelExam extends Model {
             'user_id' => $userId,
             'subject_id' => $data['exam_subject'],
             'grade' => $data['exam_grade'],
+            'exam_type_id' => $data['exam_type'],
+            'exam_year' => $data['exam_year'],
         ]);
 
         return $exam ? : false;
