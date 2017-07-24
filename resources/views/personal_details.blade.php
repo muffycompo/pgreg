@@ -23,7 +23,7 @@
                                     <img src="{{ $personal->passport_photo_path ? asset($personal->passport_photo_path) : asset('/assets/images/passport-placeholder.png')}}" alt="Passport Photo" class="img-centered img-thumbnail" width="105" height="115">
                                 </div>
                                 <div class="col-md-8">
-                                    {!! Form::open(['route' => 'post-upload-photo', 'class' => 'dropzone', 'id' => 'passportPhoto']) !!}
+                                    {!! Form::open(['route' => 'post-upload-photo', 'class' => 'dropzone', 'id' => 'passportPhoto','files' => true]) !!}
                                     <div class="dz-message">
                                         <span class="text-center">
                                             Drag & drop passport photo here to upload!
@@ -189,9 +189,9 @@
 <script>
     Dropzone.options.passportPhoto = {
         paramName: 'passport',
-        maxFilesize: 1,
+        maxFilesize: 2,
         uploadMultiple: false,
-        maxFiles: 1,
+        maxFiles: 2,
         acceptedFiles: '.jpg, .jpeg, .png, .bmp',
         init: function() {
             this.on("maxfilesexceeded", function (file) {

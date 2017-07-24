@@ -61,6 +61,9 @@
         </div>
         <!-- /.col-lg-12 -->
     </div>
+@stop
+
+@section('footer.scripts')
     <script>
         var programmeTypeCurrentId = "{{ isset($programme) ? $programme->programme_type : 1 }}";
         var programmeFacultyCurrentId = "{{ isset($programme) ? $programme->programme_faculty : 1 }}";
@@ -70,4 +73,5 @@
         var programmeFacultyUrl = "{{ route('get.programme-faculty') }}";
         var programmeOfStudyUrl = "{{ route('get.programme-of-study') }}";
     </script>
+    <script src="{{ asset('/assets/js/custom.js') }}"></script>
 @stop
