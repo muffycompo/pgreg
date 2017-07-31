@@ -33,8 +33,8 @@ class OLevelResult extends Model {
                 'ssce_status' => Str::title($data['ssce_status']),
                 'number_of_sitting' => $data['result_combination'],
                 'organization' => $data['organization'],
-                'exam_type_id' => $data['exam_type'],
-                'exam_year' => $data['exam_year'],
+//                'exam_type_id' => $data['exam_type'],
+//                'exam_year' => $data['exam_year'],
             ]);
         }
 
