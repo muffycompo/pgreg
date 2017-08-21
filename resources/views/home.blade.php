@@ -334,6 +334,21 @@
 							</tr>
 							</tbody>
 						</table>
+						<table class="table table-bordered table-responsive">
+							<thead>
+							<tr>
+								<th colspan="2">
+									<h6>Department of Library & Information Science</h6>
+								</th>
+							</tr>
+							</thead>
+							<tbody>
+							<tr>
+								<td>1</td>
+								<td>Information & Knowledge Management (PGD)</td>
+							</tr>
+							</tbody>
+						</table>
 					</div>
 					<div class="col-lg-6">
 						<table class="table table-bordered table-responsive">
@@ -376,21 +391,6 @@
 							<tr>
 								<td>1</td>
 								<td>Environmental Science (PGD)</td>
-							</tr>
-							</tbody>
-						</table>
-						<table class="table table-bordered table-responsive">
-							<thead>
-							<tr>
-								<th colspan="2">
-									<h6>Department of Library & Information Science</h6>
-								</th>
-							</tr>
-							</thead>
-							<tbody>
-							<tr>
-								<td>1</td>
-								<td>Information & Knowledge Management (PGD)</td>
 							</tr>
 							</tbody>
 						</table>
