@@ -383,14 +383,14 @@
 							<thead>
 							<tr>
 								<th colspan="2">
-									<h5>D. LIBRARY</h5>
+									<h6>Department of Library & Information Science</h6>
 								</th>
 							</tr>
 							</thead>
 							<tbody>
 							<tr>
 								<td>1</td>
-								<td>Information and Knowledge Management (PGD)</td>
+								<td>Information & Knowledge Management (PGD)</td>
 							</tr>
 							</tbody>
 						</table>
