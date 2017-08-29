@@ -572,8 +572,16 @@
 			</div>
 			<div class="col-lg-6">
 				<p>
-					For any problem encountered before or during registration, call or send SMS to 08118549705, 08036073374, 08099872010 or e-mail us at: registrar@binghamuni.edu.ng or pgadmission@binghamuni.edu.ng with the following details; Teller Number, First name, last name, amount, your phone number, and the details of the problem(s) encountered.<br>
-					Visit the University’s Application Portal: <a href="http://binghamuni.edu.ng/pgadmission">www.binghamuni.edu.ng/pgadmission</a> to apply.
+					For any problem encountered before or during registration, call or send SMS to 08118549705, 08036073374, 08099872010 or e-mail us at: registrar@binghamuni.edu.ng or pgadmission@binghamuni.edu.ng with the following details; Teller Number, First name, last name, amount, your phone number, and the details of the problem(s) encountered.<br><br>
+					{{--Visit the University’s Application Portal: <a href="http://binghamuni.edu.ng/pgadmission">www.binghamuni.edu.ng/pgadmission</a> to apply.<br><br>--}}
+					Use the button below to make payment using GTCollections:<br><br>
+					<div class="text-center">
+						<a href="http://j.mp/2ga2wFx" target="_blank">
+							{{--<img border="0" width="371" height="105" id="m_-5056775965489059701m_8572448716091706515_x0000_i1035" src="https://ci3.googleusercontent.com/proxy/obp0LpVIUvgJSf84T13mXhNORkbZAh8Twhbj7yxkORF_FtOvJFBbKcu4lSFOL85ulT4sfuzNrL0mMpaVD9oGeQV-v2RHdUs98E-vl7s=s0-d-e1-ft#https://gtbank.cloudstride.com/paynow/assets/paynow.png" alt="https://gtbank.cloudstride.com/paynow/assets/paynow.png" class="CToWUd">--}}
+							<img border="0" width="300" height="85" id="m_-5056775965489059701m_8572448716091706515_x0000_i1035" src="https://ci3.googleusercontent.com/proxy/obp0LpVIUvgJSf84T13mXhNORkbZAh8Twhbj7yxkORF_FtOvJFBbKcu4lSFOL85ulT4sfuzNrL0mMpaVD9oGeQV-v2RHdUs98E-vl7s=s0-d-e1-ft#https://gtbank.cloudstride.com/paynow/assets/paynow.png" alt="https://gtbank.cloudstride.com/paynow/assets/paynow.png" class="CToWUd">
+						</a>
+					</div>
+
 					{{--Visit any branch of Diamond Bank or Zenith Bank and ask for Bingham University Postgraduate Application form. Pay the stipulated amount and you will be issued a Computer printout containing a unique 12 digit PIN number. Visit the Postgraduate--}}
 					{{--<div class=" text-center">--}}
 						{{--<a href="{{ route('login') }}" class="btn btn-primary">--}}
