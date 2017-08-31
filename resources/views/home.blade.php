@@ -609,7 +609,7 @@
 				<h5>Admission Period</h5>
 				<p>
 					Bingham University admits postgraduate students in <strong>September (First Semester)</strong> and <strong>January (Second Semester)</strong> each year.<br>
-					Closing date for submission of application for September admission is <strong>August 2017.</strong>
+					Closing date for submission of application for September admission is <strong>September 29th, 2017.</strong>
 				</p>
 				<br>
 				<h5>Submission of Application Forms</h5>
