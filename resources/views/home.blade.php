@@ -499,6 +499,13 @@
 				<div class="row">
 					<div class="col-lg-6">
 						<table class="table table-bordered table-responsive">
+							<tbody>
+							<tr>
+								<td><strong><span class="text-danger">IMPORTANT INFORMATION (RETRACTION)</span></strong> - <a href="http://binghamuni.edu.ng/PG_Retraction.jpg" target="_blank">Click Here</a></td>
+							</tr>
+							</tbody>
+						</table>
+						<table class="table table-bordered table-responsive">
 							<thead>
 							<tr>
 								<th colspan="2">
@@ -558,7 +565,7 @@
 						</table>
 					</div>
 				</div>
-			</div>
+				</div>
 		</div>
 	</div>
 </section>
