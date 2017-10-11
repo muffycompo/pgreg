@@ -134,6 +134,364 @@
 <!-- Programmes Grid Section -->
 <section id="programmes">
 	<div class="container">
+		{{--<div class="row">--}}
+			{{--<div class="col-lg-12">--}}
+				{{--<h2>Programmes</h2>--}}
+				{{--<hr class="star-primary">--}}
+				{{--<div class="row">--}}
+					{{--<div class="col-lg-6">--}}
+						{{--<table class="table table-bordered table-responsive">--}}
+							{{--<thead>--}}
+							{{--<tr>--}}
+								{{--<th colspan="2">--}}
+									{{--<h5>A. COLLEGE OF HEALTH SCIENCES</h5>--}}
+								{{--</th>--}}
+							{{--</tr>--}}
+							{{--</thead>--}}
+							{{--<tbody>--}}
+							{{--<tr>--}}
+								{{--<td colspan="2"><h6>Department of Public Health</h6></td>--}}
+							{{--</tr>--}}
+							{{--<tr>--}}
+								{{--<td>1</td>--}}
+								{{--<td>Public Health (M.PH) [Regular], (M.PH) [Executive]</td>--}}
+							{{--</tr>--}}
+							{{--<tr>--}}
+								{{--<td colspan="2"><h6>Department of Human Physiology</h6></td>--}}
+							{{--</tr>--}}
+							{{--<tr>--}}
+								{{--<td>1</td>--}}
+								{{--<td>Human Physiology (M.Sc), (P.hD)</td>--}}
+							{{--</tr>--}}
+							{{--</tbody>--}}
+						{{--</table>--}}
+						{{--<table class="table table-bordered table-responsive">--}}
+							{{--<thead>--}}
+							{{--<tr>--}}
+								{{--<th colspan="2">--}}
+									{{--<h5>B. Faculty of Humanities, Social &amp; Management Sciences</h5>--}}
+								{{--</th>--}}
+							{{--</tr>--}}
+							{{--</thead>--}}
+							{{--<tbody>--}}
+							{{--<tr>--}}
+								{{--<td colspan="2"><h6>Department of Political Science</h6></td>--}}
+							{{--</tr>--}}
+							{{--<tr>--}}
+								{{--<td>1</td>--}}
+								{{--<td>Strategic Peace Development & Management – M.Sc., PhD.</td>--}}
+							{{--</tr>--}}
+							{{--<tr>--}}
+								{{--<td>2</td>--}}
+								{{--<td>Democracy, Governance and Service Delivery – PGD, PhD.</td>--}}
+							{{--</tr>--}}
+							{{--<tr>--}}
+								{{--<td>3</td>--}}
+								{{--<td>Strategic Leadership Development and Team Management - PGD, M.Sc., PhD.</td>--}}
+							{{--</tr>--}}
+							{{--<tr>--}}
+								{{--<td>4</td>--}}
+								{{--<td>Strategic Human Resources Management - M.Sc., PhD.</td>--}}
+							{{--</tr>--}}
+							{{--<tr>--}}
+								{{--<td>5</td>--}}
+								{{--<td>Policy Development and Legislation Management - PGD, M.Sc., PhD.</td>--}}
+							{{--</tr>--}}
+							{{--<tr>--}}
+								{{--<td>6</td>--}}
+								{{--<td>National Security and Defence Studies - M.Sc., PhD.</td>--}}
+							{{--</tr>--}}
+							{{--<tr>--}}
+								{{--<td>7</td>--}}
+								{{--<td>Democracy and Political Parties Management – PGC, PGD.</td>--}}
+							{{--</tr>--}}
+							{{--<tr>--}}
+								{{--<td>8</td>--}}
+								{{--<td>Community Policing and Security Management – PGD.</td>--}}
+							{{--</tr>--}}
+							{{--<tr>--}}
+								{{--<td>9</td>--}}
+								{{--<td>Terrorism and Security Studies - (M.Sc), (P.hD)</td>--}}
+							{{--</tr>--}}
+							{{--<tr>--}}
+								{{--<td colspan="2"><h6>Department of Economics</h6></td>--}}
+							{{--</tr>--}}
+							{{--<tr>--}}
+								{{--<td>1</td>--}}
+								{{--<td>Economics - (PGD)</td>--}}
+							{{--</tr>--}}
+							{{--<tr>--}}
+								{{--<td>2</td>--}}
+								{{--<td>Public Sector Economics - (PGD)</td>--}}
+							{{--</tr>--}}
+							{{--<tr>--}}
+								{{--<td>3</td>--}}
+								{{--<td>Strategic Banking Supervision Management - (PGD), (M.Sc)</td>--}}
+							{{--</tr>--}}
+							{{--<tr>--}}
+								{{--<td>4</td>--}}
+								{{--<td>Fiscal & Monetary Policy Management – (PGD), (M.Sc)</td>--}}
+							{{--</tr>--}}
+							{{--<tr>--}}
+								{{--<td>5</td>--}}
+								{{--<td>Financial Analysis Management – (PGD0, (M.Sc)</td>--}}
+							{{--</tr>--}}
+							{{--<tr>--}}
+								{{--<td>6</td>--}}
+								{{--<td>Financial Risk Management – (PGC), (PGD)</td>--}}
+							{{--</tr>--}}
+							{{--<tr>--}}
+								{{--<td>7</td>--}}
+								{{--<td>Inflation Targeting Management – (PGC), (PGD)</td>--}}
+							{{--</tr>--}}
+							{{--<tr>--}}
+								{{--<td>8</td>--}}
+								{{--<td>Public Procurement & Supply Management  - (PGD)</td>--}}
+							{{--</tr>--}}
+							{{--<tr>--}}
+								{{--<td colspan="2"><h6>Department of Accounting</h6></td>--}}
+							{{--</tr>--}}
+							{{--<tr>--}}
+								{{--<td>1</td>--}}
+								{{--<td>Forensic Accounting and Auditing - (PGC)</td>--}}
+							{{--</tr>--}}
+							{{--<tr>--}}
+								{{--<td>2</td>--}}
+								{{--<td>Banking and Finance - (PGD)</td>--}}
+							{{--</tr>--}}
+							{{--<tr>--}}
+								{{--<td>3</td>--}}
+								{{--<td>Accounting and Finance - (PGD), (M.Sc), (P.hD)</td>--}}
+							{{--</tr>--}}
+							{{--<tr>--}}
+								{{--<td>4</td>--}}
+								{{--<td>Public Sector Accounting- (M.Sc)</td>--}}
+							{{--</tr>--}}
+							{{--<tr>--}}
+								{{--<td colspan="2"><h6>Department of Business Administration</h6></td>--}}
+							{{--</tr>--}}
+							{{--<tr>--}}
+								{{--<td>1</td>--}}
+								{{--<td>Management - (PGD), (M.Sc), (P.hD)</td>--}}
+							{{--</tr>--}}
+							{{--<tr>--}}
+								{{--<td>2</td>--}}
+								{{--<td>Master in Business Administration (MBA)</td>--}}
+							{{--</tr>--}}
+							{{--<tr>--}}
+								{{--<td colspan="2"><h6>Department of Mass Communication</h6></td>--}}
+							{{--</tr>--}}
+							{{--<tr>--}}
+								{{--<td>1</td>--}}
+								{{--<td>Mass Communication (PGD), (M.Sc)</td>--}}
+							{{--</tr>--}}
+							{{--<tr>--}}
+								{{--<td colspan="2"><h6>Department of Sociology</h6></td>--}}
+							{{--</tr>--}}
+							{{--<tr>--}}
+								{{--<td>1</td>--}}
+								{{--<td>Sociology - M.Sc., PhD.</td>--}}
+							{{--</tr>--}}
+							{{--<tr>--}}
+								{{--<td>2</td>--}}
+								{{--<td>Criminology & Security Management – M.Sc., PhD.</td>--}}
+							{{--</tr>--}}
+							{{--<tr>--}}
+								{{--<td>3</td>--}}
+								{{--<td>Drugs & Money Laundering Management - M.Sc., PhD.</td>--}}
+							{{--</tr>--}}
+							{{--<tr>--}}
+								{{--<td>4</td>--}}
+								{{--<td>Corruption & Financial Crime - M.Sc., PhD.</td>--}}
+							{{--</tr>--}}
+							{{--<tr>--}}
+								{{--<td>5</td>--}}
+								{{--<td>Innovation & Extension - M.Sc., PhD.</td>--}}
+							{{--</tr>--}}
+							{{--<tr>--}}
+								{{--<td>6</td>--}}
+								{{--<td>Demography & Statistics - M.Sc., PhD.</td>--}}
+							{{--</tr>--}}
+							{{--<tr>--}}
+								{{--<td>7</td>--}}
+								{{--<td>Health Planning - M.Sc., PhD.</td>--}}
+							{{--</tr>--}}
+							{{--<tr>--}}
+								{{--<td>8</td>--}}
+								{{--<td>Rural Development – PGC, PGD</td>--}}
+							{{--</tr>--}}
+							{{--<tr>--}}
+								{{--<td>9</td>--}}
+								{{--<td>Social Work - PGC, PGD.</td>--}}
+							{{--</tr>--}}
+							{{--<tr>--}}
+								{{--<td>10</td>--}}
+								{{--<td>Community Development – PGC, PGD.</td>--}}
+							{{--</tr>--}}
+							{{--<tr>--}}
+								{{--<td>11</td>--}}
+								{{--<td>Investigation & Crime Management – PGD.</td>--}}
+							{{--</tr>--}}
+							{{--</tbody>--}}
+						{{--</table>--}}
+						{{--<table class="table table-bordered table-responsive">--}}
+							{{--<thead>--}}
+							{{--<tr>--}}
+								{{--<th colspan="2">--}}
+									{{--<h6>Department of Library & Information Science</h6>--}}
+								{{--</th>--}}
+							{{--</tr>--}}
+							{{--</thead>--}}
+							{{--<tbody>--}}
+							{{--<tr>--}}
+								{{--<td>1</td>--}}
+								{{--<td>Information & Knowledge Management (PGD)</td>--}}
+							{{--</tr>--}}
+							{{--</tbody>--}}
+						{{--</table>--}}
+					{{--</div>--}}
+					{{--<div class="col-lg-6">--}}
+						{{--<table class="table table-bordered table-responsive">--}}
+							{{--<thead>--}}
+							{{--<tr>--}}
+								{{--<th colspan="2">--}}
+									{{--<h5>C. FACULTY OF SCIENCE AND TECHNOLOGY</h5>--}}
+								{{--</th>--}}
+							{{--</tr>--}}
+							{{--</thead>--}}
+							{{--<tbody>--}}
+							{{--<tr>--}}
+								{{--<td colspan="2"><h6>Department of Biological Science</h6></td>--}}
+							{{--</tr>--}}
+							{{--<tr>--}}
+								{{--<td>1</td>--}}
+								{{--<td>Aquaculture (PGC)</td>--}}
+							{{--</tr>--}}
+							{{--<tr>--}}
+								{{--<td colspan="2"><h6>Department of Biochemistry</h6></td>--}}
+							{{--</tr>--}}
+							{{--<tr>--}}
+								{{--<td>1</td>--}}
+								{{--<td>Biochemistry and Nutrition (PGD), (M.Sc)</td>--}}
+							{{--</tr>--}}
+							{{--<tr>--}}
+								{{--<td colspan="2"><h6>Department of Computer Science</h6></td>--}}
+							{{--</tr>--}}
+							{{--<tr>--}}
+								{{--<td>1</td>--}}
+								{{--<td>Information Technology (PGD), (M.Sc)</td>--}}
+							{{--</tr>--}}
+							{{--<tr>--}}
+								{{--<td>2</td>--}}
+								{{--<td>Computer Science (PGD), (M.Sc)</td>--}}
+							{{--</tr>--}}
+							{{--<tr>--}}
+								{{--<td colspan="2"><h6>Department of Chemical Science</h6></td>--}}
+							{{--</tr>--}}
+							{{--<tr>--}}
+								{{--<td>1</td>--}}
+								{{--<td>Environmental Science (PGD)</td>--}}
+							{{--</tr>--}}
+							{{--</tbody>--}}
+						{{--</table>--}}
+						{{--<table class="table table-bordered table-responsive">--}}
+							{{--<thead>--}}
+							{{--<tr>--}}
+								{{--<th colspan="2">--}}
+									{{--<h5>GENERAL COURSES/PROGRAMMES</h5>--}}
+								{{--</th>--}}
+							{{--</tr>--}}
+							{{--</thead>--}}
+							{{--<tbody>--}}
+							{{--<tr>--}}
+								{{--<td>1</td>--}}
+								{{--<td>Project and Programme Planning Management – PGD, M.Sc., PhD.</td>--}}
+							{{--</tr>--}}
+							{{--<tr>--}}
+								{{--<td>2</td>--}}
+								{{--<td>Budget and Resource Management - PGD, M.Sc., PhD.</td>--}}
+							{{--</tr>--}}
+							{{--<tr>--}}
+								{{--<td>3</td>--}}
+								{{--<td>Tourism, Hospitality, Events and Entertainment Management - PGD, M.Sc.</td>--}}
+							{{--</tr>--}}
+							{{--<tr>--}}
+								{{--<td>4</td>--}}
+								{{--<td>Fashion Designing and Management – PGC, PGD</td>--}}
+							{{--</tr>--}}
+							{{--<tr>--}}
+								{{--<td>5</td>--}}
+								{{--<td>Public Safety and Emergency Management - PGD, M.Sc.</td>--}}
+							{{--</tr>--}}
+							{{--<tr>--}}
+								{{--<td>6</td>--}}
+								{{--<td>Public Service Management and Administration - PGD, M.Sc.</td>--}}
+							{{--</tr>--}}
+							{{--<tr>--}}
+								{{--<td>7</td>--}}
+								{{--<td>Sports Development and Management – PGC, PGD, M.Sc.</td>--}}
+							{{--</tr>--}}
+							{{--<tr>--}}
+								{{--<td>8</td>--}}
+								{{--<td>Entrepreneurship Management – PGC, PGD.</td>--}}
+							{{--</tr>--}}
+							{{--<tr>--}}
+								{{--<td>9</td>--}}
+								{{--<td>Project Monitoring & Evaluation – PGC, PGD.</td>--}}
+							{{--</tr>--}}
+							{{--<tr>--}}
+								{{--<td>10</td>--}}
+								{{--<td>Aquaculture and management – PGC, PGD. </td>--}}
+							{{--</tr>--}}
+							{{--<tr>--}}
+								{{--<td>11</td>--}}
+								{{--<td>Career and Retirement Management – PGC, PGD.</td>--}}
+							{{--</tr>--}}
+							{{--<tr>--}}
+								{{--<td>12</td>--}}
+								{{--<td>Education (PGD)</td>--}}
+							{{--</tr>--}}
+							{{--</tbody>--}}
+						{{--</table>--}}
+						{{--<table class="table table-bordered table-responsive">--}}
+							{{--<thead>--}}
+							{{--<tr>--}}
+								{{--<th colspan="2">--}}
+									{{--<h5>SHORT TERM CERTIFICATE COURSES (EXECUTIVE)</h5>--}}
+								{{--</th>--}}
+							{{--</tr>--}}
+							{{--</thead>--}}
+							{{--<tbody>--}}
+							{{--<tr>--}}
+								{{--<td>1</td>--}}
+								{{--<td>Border Management.</td>--}}
+							{{--</tr>--}}
+							{{--<tr>--}}
+								{{--<td>2</td>--}}
+								{{--<td>Crowd Control.</td>--}}
+							{{--</tr>--}}
+							{{--<tr>--}}
+								{{--<td>3</td>--}}
+								{{--<td>Software Development and Website Design.</td>--}}
+							{{--</tr>--}}
+							{{--<tr>--}}
+								{{--<td>4</td>--}}
+								{{--<td>Conflict Management & Peace Education.</td>--}}
+							{{--</tr>--}}
+							{{--<tr>--}}
+								{{--<td>5</td>--}}
+								{{--<td>Transport Management.</td>--}}
+							{{--</tr>--}}
+							{{--<tr>--}}
+								{{--<td>6</td>--}}
+								{{--<td>Poultry Management.</td>--}}
+							{{--</tr>--}}
+							{{--</tbody>--}}
+						{{--</table>--}}
+					{{--</div>--}}
+				{{--</div>--}}
+			{{--</div>--}}
+		{{--</div>--}}
 		<div class="row">
 			<div class="col-lg-12">
 				<h2>Programmes</h2>
@@ -144,356 +502,63 @@
 							<thead>
 							<tr>
 								<th colspan="2">
-									<h5>A. COLLEGE OF HEALTH SCIENCES</h5>
+									<h5>A. Faculty of Humanities, Social &amp; Management Sciences</h5>
 								</th>
 							</tr>
 							</thead>
 							<tbody>
-							<tr>
-								<td colspan="2"><h6>Department of Public Health</h6></td>
-							</tr>
-							<tr>
-								<td>1</td>
-								<td>Public Health (M.PH) [Regular], (M.PH) [Executive]</td>
-							</tr>
-							<tr>
-								<td colspan="2"><h6>Department of Human Physiology</h6></td>
-							</tr>
-							<tr>
-								<td>1</td>
-								<td>Human Physiology (M.Sc), (P.hD)</td>
-							</tr>
+								<tr>
+									<td colspan="2"><h6>Department of Political Science</h6></td>
+								</tr>
+								<tr>
+									<td>1</td>
+									<td>Human Resource Management – (M.Sc.)</td>
+								</tr>
+								<tr>
+									<td colspan="2"><h6>Department of Business Administration</h6></td>
+								</tr>
+								<tr>
+									<td>1</td>
+									<td>Management - (PGD)</td>
+								</tr>
+								<tr>
+									<td>2</td>
+									<td>Business Administration - (MBA)</td>
+								</tr>
+								<tr>
+									<td colspan="2"><h6>Department of Accounting</h6></td>
+								</tr>
+								<tr>
+									<td>1</td>
+									<td>Accounting - (PGD)</td>
+								</tr>
+								<tr>
+									<td>2</td>
+									<td>Accounting and Finance - (M.Sc.)</td>
+								</tr>
 							</tbody>
-						</table>
-						<table class="table table-bordered table-responsive">
-							<thead>
-							<tr>
-								<th colspan="2">
-									<h5>B. Faculty of Humanities, Social &amp; Management Sciences</h5>
-								</th>
-							</tr>
-							</thead>
-							<tbody>
-							<tr>
-								<td colspan="2"><h6>Department of Political Science</h6></td>
-							</tr>
-							<tr>
-								<td>1</td>
-								<td>Strategic Peace Development & Management – M.Sc., PhD.</td>
-							</tr>
-							<tr>
-								<td>2</td>
-								<td>Democracy, Governance and Service Delivery – PGD, PhD.</td>
-							</tr>
-							<tr>
-								<td>3</td>
-								<td>Strategic Leadership Development and Team Management - PGD, M.Sc., PhD.</td>
-							</tr>
-							<tr>
-								<td>4</td>
-								<td>Strategic Human Resources Management - M.Sc., PhD.</td>
-							</tr>
-							<tr>
-								<td>5</td>
-								<td>Policy Development and Legislation Management - PGD, M.Sc., PhD.</td>
-							</tr>
-							<tr>
-								<td>6</td>
-								<td>National Security and Defence Studies - M.Sc., PhD.</td>
-							</tr>
-							<tr>
-								<td>7</td>
-								<td>Democracy and Political Parties Management – PGC, PGD.</td>
-							</tr>
-							<tr>
-								<td>8</td>
-								<td>Community Policing and Security Management – PGD.</td>
-							</tr>
-							<tr>
-								<td>9</td>
-								<td>Terrorism and Security Studies - (M.Sc), (P.hD)</td>
-							</tr>
-							<tr>
-								<td colspan="2"><h6>Department of Economics</h6></td>
-							</tr>
-							<tr>
-								<td>1</td>
-								<td>Economics - (PGD)</td>
-							</tr>
-							<tr>
-								<td>2</td>
-								<td>Public Sector Economics - (PGD)</td>
-							</tr>
-							<tr>
-								<td>3</td>
-								<td>Strategic Banking Supervision Management - (PGD), (M.Sc)</td>
-							</tr>
-							<tr>
-								<td>4</td>
-								<td>Fiscal & Monetary Policy Management – (PGD), (M.Sc)</td>
-							</tr>
-							<tr>
-								<td>5</td>
-								<td>Financial Analysis Management – (PGD0, (M.Sc)</td>
-							</tr>
-							<tr>
-								<td>6</td>
-								<td>Financial Risk Management – (PGC), (PGD)</td>
-							</tr>
-							<tr>
-								<td>7</td>
-								<td>Inflation Targeting Management – (PGC), (PGD)</td>
-							</tr>
-							<tr>
-								<td>8</td>
-								<td>Public Procurement & Supply Management  - (PGD)</td>
-							</tr>
-							<tr>
-								<td colspan="2"><h6>Department of Accounting</h6></td>
-							</tr>
-							<tr>
-								<td>1</td>
-								<td>Forensic Accounting and Auditing - (PGC)</td>
-							</tr>
-							<tr>
-								<td>2</td>
-								<td>Banking and Finance - (PGD)</td>
-							</tr>
-							<tr>
-								<td>3</td>
-								<td>Accounting and Finance - (PGD), (M.Sc), (P.hD)</td>
-							</tr>
-							<tr>
-								<td>4</td>
-								<td>Public Sector Accounting- (M.Sc)</td>
-							</tr>
-							<tr>
-								<td colspan="2"><h6>Department of Business Administration</h6></td>
-							</tr>
-							<tr>
-								<td>1</td>
-								<td>Management - (PGD), (M.Sc), (P.hD)</td>
-							</tr>
-							<tr>
-								<td>2</td>
-								<td>Master in Business Administration (MBA)</td>
-							</tr>
-							<tr>
-								<td colspan="2"><h6>Department of Mass Communication</h6></td>
-							</tr>
-							<tr>
-								<td>1</td>
-								<td>Mass Communication (PGD), (M.Sc)</td>
-							</tr>
-							<tr>
-								<td colspan="2"><h6>Department of Sociology</h6></td>
-							</tr>
-							<tr>
-								<td>1</td>
-								<td>Sociology - M.Sc., PhD.</td>
-							</tr>
-							<tr>
-								<td>2</td>
-								<td>Criminology & Security Management – M.Sc., PhD.</td>
-							</tr>
-							<tr>
-								<td>3</td>
-								<td>Drugs & Money Laundering Management - M.Sc., PhD.</td>
-							</tr>
-							<tr>
-								<td>4</td>
-								<td>Corruption & Financial Crime - M.Sc., PhD.</td>
-							</tr>
-							<tr>
-								<td>5</td>
-								<td>Innovation & Extension - M.Sc., PhD.</td>
-							</tr>
-							<tr>
-								<td>6</td>
-								<td>Demography & Statistics - M.Sc., PhD.</td>
-							</tr>
-							<tr>
-								<td>7</td>
-								<td>Health Planning - M.Sc., PhD.</td>
-							</tr>
-							<tr>
-								<td>8</td>
-								<td>Rural Development – PGC, PGD</td>
-							</tr>
-							<tr>
-								<td>9</td>
-								<td>Social Work - PGC, PGD.</td>
-							</tr>
-							<tr>
-								<td>10</td>
-								<td>Community Development – PGC, PGD.</td>
-							</tr>
-							<tr>
-								<td>11</td>
-								<td>Investigation & Crime Management – PGD.</td>
-							</tr>
-							</tbody>
-						</table>
-						<table class="table table-bordered table-responsive">
-							<thead>
-							<tr>
-								<th colspan="2">
-									<h6>Department of Library & Information Science</h6>
-								</th>
-							</tr>
-							</thead>
-							<tbody>
-							<tr>
-								<td>1</td>
-								<td>Information & Knowledge Management (PGD)</td>
-							</tr>
-							</tbody>
-						</table>
-					</div>
 					<div class="col-lg-6">
 						<table class="table table-bordered table-responsive">
 							<thead>
 							<tr>
 								<th colspan="2">
-									<h5>C. FACULTY OF SCIENCE AND TECHNOLOGY</h5>
+									<h5>B. FACULTY OF SCIENCE AND TECHNOLOGY</h5>
 								</th>
 							</tr>
 							</thead>
 							<tbody>
-							<tr>
-								<td colspan="2"><h6>Department of Biological Science</h6></td>
-							</tr>
-							<tr>
-								<td>1</td>
-								<td>Aquaculture (PGC)</td>
-							</tr>
-							<tr>
-								<td colspan="2"><h6>Department of Biochemistry</h6></td>
-							</tr>
-							<tr>
-								<td>1</td>
-								<td>Biochemistry and Nutrition (PGD), (M.Sc)</td>
-							</tr>
-							<tr>
-								<td colspan="2"><h6>Department of Computer Science</h6></td>
-							</tr>
-							<tr>
-								<td>1</td>
-								<td>Information Technology (PGD), (M.Sc)</td>
-							</tr>
-							<tr>
-								<td>2</td>
-								<td>Computer Science (PGD), (M.Sc)</td>
-							</tr>
-							<tr>
-								<td colspan="2"><h6>Department of Chemical Science</h6></td>
-							</tr>
-							<tr>
-								<td>1</td>
-								<td>Environmental Science (PGD)</td>
-							</tr>
-							</tbody>
-						</table>
-						<table class="table table-bordered table-responsive">
-							<thead>
-							<tr>
-								<th colspan="2">
-									<h5>GENERAL COURSES/PROGRAMMES</h5>
-								</th>
-							</tr>
-							</thead>
-							<tbody>
-							<tr>
-								<td>1</td>
-								<td>Project and Programme Planning Management – PGD, M.Sc., PhD.</td>
-							</tr>
-							<tr>
-								<td>2</td>
-								<td>Budget and Resource Management - PGD, M.Sc., PhD.</td>
-							</tr>
-							<tr>
-								<td>3</td>
-								<td>Tourism, Hospitality, Events and Entertainment Management - PGD, M.Sc.</td>
-							</tr>
-							<tr>
-								<td>4</td>
-								<td>Fashion Designing and Management – PGC, PGD</td>
-							</tr>
-							<tr>
-								<td>5</td>
-								<td>Public Safety and Emergency Management - PGD, M.Sc.</td>
-							</tr>
-							<tr>
-								<td>6</td>
-								<td>Public Service Management and Administration - PGD, M.Sc.</td>
-							</tr>
-							<tr>
-								<td>7</td>
-								<td>Sports Development and Management – PGC, PGD, M.Sc.</td>
-							</tr>
-							<tr>
-								<td>8</td>
-								<td>Entrepreneurship Management – PGC, PGD.</td>
-							</tr>
-							<tr>
-								<td>9</td>
-								<td>Project Monitoring & Evaluation – PGC, PGD.</td>
-							</tr>
-							<tr>
-								<td>10</td>
-								<td>Aquaculture and management – PGC, PGD. </td>
-							</tr>
-							<tr>
-								<td>11</td>
-								<td>Career and Retirement Management – PGC, PGD.</td>
-							</tr>
-							<tr>
-								<td>12</td>
-								<td>Education (PGD)</td>
-							</tr>
-							</tbody>
-						</table>
-						<table class="table table-bordered table-responsive">
-							<thead>
-							<tr>
-								<th colspan="2">
-									<h5>SHORT TERM CERTIFICATE COURSES (EXECUTIVE)</h5>
-								</th>
-							</tr>
-							</thead>
-							<tbody>
-							<tr>
-								<td>1</td>
-								<td>Border Management.</td>
-							</tr>
-							<tr>
-								<td>2</td>
-								<td>Crowd Control.</td>
-							</tr>
-							<tr>
-								<td>3</td>
-								<td>Software Development and Website Design.</td>
-							</tr>
-							<tr>
-								<td>4</td>
-								<td>Conflict Management & Peace Education.</td>
-							</tr>
-							<tr>
-								<td>5</td>
-								<td>Transport Management.</td>
-							</tr>
-							<tr>
-								<td>6</td>
-								<td>Poultry Management.</td>
-							</tr>
+								<tr>
+									<td colspan="2"><h6>Department of Biochemistry</h6></td>
+								</tr>
+								<tr>
+									<td>1</td>
+									<td>Biochemistry - (M.Sc.)</td>
+								</tr>
 							</tbody>
 						</table>
 					</div>
 				</div>
 			</div>
-		</div>
-		<div class="row">
-
 		</div>
 	</div>
 </section>
