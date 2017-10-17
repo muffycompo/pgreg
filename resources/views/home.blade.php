@@ -494,7 +494,7 @@
 		{{--</div>--}}
 		<div class="row">
 			<div class="col-lg-12">
-				<h2>Programmes</h2>
+				<h2 class="text-center">Programmes</h2>
 				<hr class="star-primary">
 				<div class="row">
 					<div class="col-lg-6">
@@ -544,7 +544,7 @@
 									<td>Accounting and Finance - (M.Sc.)</td>
 								</tr>
 							</tbody>
-					<div class="col-lg-6">
+						</table>
 						<table class="table table-bordered table-responsive">
 							<thead>
 							<tr>
@@ -554,13 +554,30 @@
 							</tr>
 							</thead>
 							<tbody>
-								<tr>
-									<td colspan="2"><h6>Department of Biochemistry</h6></td>
-								</tr>
-								<tr>
-									<td>1</td>
-									<td>Biochemistry - (M.Sc.)</td>
-								</tr>
+							<tr>
+								<td colspan="2"><h6>Department of Biochemistry</h6></td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td>Biochemistry - (M.Sc.)</td>
+							</tr>
+							</tbody>
+						</table>
+					</div>
+					<div class="col-lg-6">
+						<table class="table table-bordered table-responsive">
+							<tbody>
+							<tr>
+								<td><strong><span class="text-danger">
+									TO THE GENERAL PUBLIC<br><br>
+
+									CANDIDATES WHO APPLIED FOR PROGRAMMES OUTSIDE THE LISTED APPROVED PROGRAMMES ON DISPLAY SHOULD IMMEDIATELY VISIT THE UNIVERSITY'S BURSARY DEPARTMENT FOR REFUND OF THEIR MONEY.<br><br>
+
+									SIGNED<br>
+									REGISTRAR
+										</span></strong>
+								</td>
+							</tr>
 							</tbody>
 						</table>
 					</div>
