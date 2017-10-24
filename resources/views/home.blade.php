@@ -569,13 +569,13 @@
 							<tbody>
 							<tr>
 								<td><strong><span class="text-danger">
-									TO THE GENERAL PUBLIC<br><br>
+									NOTICE TO APPLICANTS<br><br>
 
-									CANDIDATES WHO APPLIED FOR PROGRAMMES OUTSIDE THE LISTED APPROVED PROGRAMMES ON DISPLAY SHOULD IMMEDIATELY VISIT THE UNIVERSITY'S BURSARY DEPARTMENT FOR REFUND OF THEIR MONEY.<br><br>
+									THOSE WHOSE PROGRAMME ARE NOT AVAILABLE THIS YEAR AND CANNOT WAIT TILL JANUARY 2018, COULD REQUEST A REFUND BY SENDING US AN SMS OR E-MAIL PLEASE.<br><br></span></strong>
 
-									SIGNED<br>
-									REGISTRAR
-										</span></strong>
+									<strong>Barnabas Abesadu<br>
+										<em>Secretary, School of Postgraduate Studies</em></strong>
+
 								</td>
 							</tr>
 							</tbody>
