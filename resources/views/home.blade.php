@@ -571,7 +571,7 @@
 								<td><strong><span class="text-danger">
 									NOTICE TO APPLICANTS<br><br>
 
-									THOSE WHOSE PROGRAMME ARE NOT AVAILABLE THIS YEAR AND CANNOT WAIT TILL JANUARY 2018, COULD REQUEST A REFUND BY SENDING US AN SMS OR E-MAIL PLEASE.<br><br></span></strong>
+									THOSE WHOSE PROGRAMME ARE NOT AVAILABLE THIS YEAR AND CANNOT WAIT TILL JANUARY 2018, COULD REQUEST A REFUND BY SENDING US AN SMS TO 07063728966 OR E-MAIL TO johnson.oluwatobi@binghamuni.edu.ng<br><br></span></strong>
 
 									<strong>Barnabas Abesadu<br>
 										<em>Secretary, School of Postgraduate Studies</em></strong>
