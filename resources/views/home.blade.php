@@ -104,28 +104,25 @@
 		<div class="row">
 			<div class="col-lg-6">
 				<p>
-					Bingham University is owned by the Evangelical Church Winning All (ECWA). Its founding fathers were visionaries of ECWA extraction who looked back to the golden age of Christian mission education in Nigeria, which was noted for its moral and spiritual content, high quality, purposefulness, service oriented values that was much cherished by all. In recent years, Nigeria have called for such education that combines secular and moral/spiritual values, even within the context of modern technological advancement.
+					Bingham University is owned by the Evangelical Church Winning All (ECWA) and was established to promote positive ideals. The University’s curricular are of very high academic standards and entrepreneurial in nature to prepare our graduates for a self-reliant and God fearing life in a developing economy.
 				</p>
-				<p>
-					Bingham University was established to meet these aforementioned ideals. Our curricular are of very high academic standards and entrepreneurial in nature to prepare our graduates for self-reliant and God fearing life in a developing economy.
-				</p>
+				<p>In line with its mission of providing quality and functional education, the Postgraduate programmes are designed to be practically relevant to the country's needs and challenges.</p>
 			</div>
 			<div class="col-lg-6">
-				<h5>ATTRACTION AND UNIQUENESS OF BINGHAM UNIVERSITY</h5>
-				<ul>
-					<li>Geographical advantage in location resulting from its close proximity to the Federal Capital Territory (FCT).</li>
-					<li>Consistent, predictable safe and assured academic calendar.</li>
-					<li>Fast growing University with unprecedented academic landmark and physical achievements in the ten (10) years period of its existence.</li>
-					<li>Has successfully graduated eight (8) sets of students by December 2016 uninterruptedly.</li>
-					<li>One of the best Universities in Medicine as at 2016 by the NUC.</li>
-					<li>First University to develop e-voting machine model.</li>
-				</ul>
-				<p>In line with its mission of providing quality and functional education, the Postgraduate programmes are designed to be practically relevant to the country's needs and challenges.</p>
-
-				<h5>Sales of Application forms (June 2017)</h5>
+				{{--<h5>ATTRACTION AND UNIQUENESS OF BINGHAM UNIVERSITY</h5>--}}
+				{{--<ul>--}}
+					{{--<li>Geographical advantage in location resulting from its close proximity to the Federal Capital Territory (FCT).</li>--}}
+					{{--<li>Consistent, predictable safe and assured academic calendar.</li>--}}
+					{{--<li>Fast growing University with unprecedented academic landmark and physical achievements in the ten (10) years period of its existence.</li>--}}
+					{{--<li>Has successfully graduated eight (8) sets of students by December 2016 uninterruptedly.</li>--}}
+					{{--<li>One of the best Universities in Medicine as at 2016 by the NUC.</li>--}}
+					{{--<li>First University to develop e-voting machine model.</li>--}}
+				{{--</ul>--}}
+				<h5>Sales of Application forms</h5>
 				<p>
-					Applications are invited from suitably qualified candidates for admission into the University’s postgraduate programmes. Application forms are on sale from <strong>3rd July 2017</strong>. Check our <a href="#programmes">list of programmes</a>
+					Applications are invited from suitably qualified candidates for admission into the University’s postgraduate programmes. The sale of application forms would <strong>CLOSE</strong> on <strong>31st January 2018</strong> for the following Postgraduate programmes. Check our <a href="#programmes">list of programmes</a>
 				</p>
+
 			</div>
 		</div>
 	</div>
@@ -514,13 +511,13 @@
 							</tr>
 							</thead>
 							<tbody>
-								<tr>
-									<td colspan="2"><h6>Department of Political Science</h6></td>
-								</tr>
-								<tr>
-									<td>1</td>
-									<td>Human Resource Management – (M.Sc.)</td>
-								</tr>
+								{{--<tr>--}}
+									{{--<td colspan="2"><h6>Department of Political Science</h6></td>--}}
+								{{--</tr>--}}
+								{{--<tr>--}}
+									{{--<td>1</td>--}}
+									{{--<td>Human Resource Management – (M.Sc.)</td>--}}
+								{{--</tr>--}}
 								<tr>
 									<td colspan="2"><h6>Department of Business Administration</h6></td>
 								</tr>
@@ -533,6 +530,10 @@
 									<td>Business Administration - (MBA)</td>
 								</tr>
 								<tr>
+									<td>3</td>
+									<td>Human Resource Management – (M.Sc.)</td>
+								</tr>
+								<tr>
 									<td colspan="2"><h6>Department of Accounting</h6></td>
 								</tr>
 								<tr>
@@ -541,7 +542,7 @@
 								</tr>
 								<tr>
 									<td>2</td>
-									<td>Accounting and Finance - (M.Sc.)</td>
+									<td>Accounting - (M.Sc.)</td>
 								</tr>
 							</tbody>
 						</table>
@@ -569,13 +570,8 @@
 							<tbody>
 							<tr>
 								<td><strong><span class="text-danger">
-									NOTICE TO APPLICANTS<br><br>
-
-									THOSE WHOSE PROGRAMME ARE NOT AVAILABLE THIS YEAR AND CANNOT WAIT TILL JANUARY 2018, COULD REQUEST A REFUND BY SENDING US AN SMS TO 07063728966 OR E-MAIL TO johnson.oluwatobi@binghamuni.edu.ng<br><br></span></strong>
-
-									<strong>Barnabas Abesadu<br>
-										<em>Secretary, School of Postgraduate Studies</em></strong>
-
+									NOTICE TO APPLICANTS</span></strong><br><br>
+									APPLICANTS WHO HAVE ALREADY APPLIED FOR ANY OF THESE PROGRAMMES NEED NOT APPLY AGAIN.
 								</td>
 							</tr>
 							</tbody>
@@ -609,15 +605,15 @@
 					{{--</ul>--}}
 					<ul>
 						<li>
-							GUARANTY TRUST BANK (GTB)
+							ACCESS BANK
 							<ol>
 								<li>A/C Name: Bingham University</li>
-								<li>A/C No: 0211169092</li>
+								<li>A/C No: 0016600090</li>
 							</ol>
 						</li>
 						{{--<li>Diamond Bank</li>--}}
 						<li>
-							UNION BANK
+							ZENITH BANK
 							<ol>
 								<li>A/C Name: Bingham University</li>
 								<li>A/C No: 0045442598</li>
@@ -627,15 +623,15 @@
 					</ul>
 				</p>
 				<p>
-					Application forms are available subject to payment of a non-refundable fee for the programme of interest as follows:
+					Application forms are available online subject to payment of a non-refundable fee for the programme of interest as follows:
 					{{--Application forms are available subject to payment of a non-refundable fee of <strong>N10,300</strong> payable to any of the accounts in the following banks:<br>--}}
 					{{--<strong>Diamond Bank Account: <span style="color: #2C3E50;">1010773456</span></strong><br>--}}
 					{{--<strong>Zenith Bank Account: <span style="color: #2C3E50;">1130017403</span></strong><br>--}}
 					<table class="table table-bordered table-responsive">
-						<tr>
-							<td>Ph.D (Doctor of Philosophy)</td>
-							<td>N 25,500</td>
-						</tr>
+						{{--<tr>--}}
+							{{--<td>Ph.D (Doctor of Philosophy)</td>--}}
+							{{--<td>N 25,500</td>--}}
+						{{--</tr>--}}
 						<tr>
 							<td>M.Sc (Masters of Science)</td>
 							<td>N 20,500</td>
@@ -648,15 +644,17 @@
 							<td>Postgraduate Diploma (PGD)</td>
 							<td>N 15,500</td>
 						</tr>
-						<tr>
-							<td>Postgraduate Certificate (PGC)</td>
-							<td>N 10,500</td>
-						</tr>
-						<tr>
-							<td>Special Executive Certificate</td>
-							<td>N 15,500</td>
-						</tr>
+						{{--<tr>--}}
+							{{--<td>Postgraduate Certificate (PGC)</td>--}}
+							{{--<td>N 10,500</td>--}}
+						{{--</tr>--}}
+						{{--<tr>--}}
+							{{--<td>Special Executive Certificate</td>--}}
+							{{--<td>N 15,500</td>--}}
+						{{--</tr>--}}
 					</table>
+				Upon payment, a special PIN would be issued to the applicant by the Bank or the School of Postgraduate Studies in order to proceed with application.<br><br>
+				<span style="font-style: italic; color: #D8501E;">Forms are also available in the School of Postgraduate Studies</span>
 				</p>
 			</div>
 			<div class="col-lg-6">
@@ -698,7 +696,7 @@
 				<h5>Admission Period</h5>
 				<p>
 					Bingham University admits postgraduate students in <strong>September (First Semester)</strong> and <strong>January (Second Semester)</strong> each year.<br>
-					Closing date for submission of application for September admission is <strong>September 29th, 2017.</strong>
+					Closing date for submission of applications is <strong>31st January, 2018.</strong>
 				</p>
 				<br>
 				<h5>Submission of Application Forms</h5>
