@@ -616,7 +616,8 @@
 							ZENITH BANK
 							<ol>
 								<li>A/C Name: Bingham University</li>
-								<li>A/C No: 0045442598</li>
+								{{--<li>A/C No: 0045442598</li>--}}
+								<li>A/C No: 1011004292</li>
 							</ol>
 						</li>
 						{{--<li>Guaranty Trust Bank</li>--}}
