@@ -120,7 +120,7 @@
 				{{--</ul>--}}
 				<h5>Sales of Application forms</h5>
 				<p>
-					Applications are invited from suitably qualified candidates for admission into the University’s postgraduate programmes. The sale of application forms would <strong>CLOSE</strong> on <strong>31st January 2018</strong> for the following Postgraduate programmes. Check our <a href="#programmes">list of programmes</a>
+					Applications are invited from suitably qualified candidates for admission into the University’s postgraduate programmes. The sale of application forms would <strong>CLOSE</strong> on <strong>15th February 2018</strong> for the following Postgraduate programmes. Check our <a href="#programmes">list of programmes</a>
 				</p>
 
 			</div>
@@ -658,9 +658,39 @@
 				</p>
 			</div>
 			<div class="col-lg-6">
+				<table class="table table-bordered table-responsive">
+					<tr>
+						<th colspan="2" class="text-center">SCHOOL FEES FOR POSTGRADUATE PROGRAMMES</th>
+					</tr>
+					<tr>
+						<td>M.Sc (Masters of Science)</td>
+						<td>N 200,000</td>
+					</tr>
+					<tr>
+						<td>MA (Masters of Art)</td>
+						<td>N 170,000</td>
+					</tr>
+					<tr>
+						<td>MBA (Masters in Business Administration)</td>
+						<td>N 250,000</td>
+					</tr>
+					<tr>
+						<td>Postgraduate Diploma (PGD)</td>
+						<td>N 150,000</td>
+					</tr>
+					{{--<tr>--}}
+					{{--<td>Postgraduate Certificate (PGC)</td>--}}
+					{{--<td>N 10,500</td>--}}
+					{{--</tr>--}}
+					{{--<tr>--}}
+					{{--<td>Special Executive Certificate</td>--}}
+					{{--<td>N 15,500</td>--}}
+					{{--</tr>--}}
+				</table>
 				<p>
 					For any problem encountered before or during registration, call or send SMS to 08118549705, 08036073374, 08099872010 or e-mail us at: registrar@binghamuni.edu.ng or pgadmission@binghamuni.edu.ng with the following details; Teller Number, First name, last name, amount, your phone number, and the details of the problem(s) encountered.<br><br>
 					{{--Visit the University’s Application Portal: <a href="http://binghamuni.edu.ng/pgadmission">www.binghamuni.edu.ng/pgadmission</a> to apply.<br><br>--}}
+
 					Use the button below to make payment using GTCollections:<br><br>
 					<div class="text-center">
 						<a href="http://j.mp/2ga2wFx" target="_blank">
